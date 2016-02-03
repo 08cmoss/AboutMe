@@ -80,7 +80,7 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Drums" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tgw-5Q-lK7">
-                                <rect key="frame" x="275" y="383" width="51" height="21"/>
+                                <rect key="frame" x="275" y="369" width="51" height="20.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="51" id="iHM-ha-UwH"/>
                                 </constraints>
@@ -91,13 +91,18 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Tgw-5Q-lK7" firstAttribute="top" secondItem="LUD-7b-4V9" secondAttribute="bottom" constant="19" id="CjQ-KA-rd5"/>
+                            <constraint firstItem="Tgw-5Q-lK7" firstAttribute="top" secondItem="LUD-7b-4V9" secondAttribute="bottom" constant="5" id="CjQ-KA-rd5"/>
                             <constraint firstItem="LUD-7b-4V9" firstAttribute="leading" secondItem="T9K-DX-Z6O" secondAttribute="leadingMargin" id="Nlf-9u-oVP"/>
                             <constraint firstItem="EGm-k9-NlO" firstAttribute="top" secondItem="Tgw-5Q-lK7" secondAttribute="bottom" constant="147" id="WVG-eJ-HSt"/>
                             <constraint firstItem="LUD-7b-4V9" firstAttribute="trailing" secondItem="T9K-DX-Z6O" secondAttribute="trailingMargin" id="d8p-xU-RIz"/>
                             <constraint firstItem="LUD-7b-4V9" firstAttribute="top" secondItem="E3Y-Mt-M7V" secondAttribute="bottom" id="kCx-cM-sl6"/>
                             <constraint firstItem="Tgw-5Q-lK7" firstAttribute="centerX" secondItem="LUD-7b-4V9" secondAttribute="centerX" id="wpx-Jf-9KS"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="WVG-eJ-HSt"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lqG-pc-Vvt" userLabel="First Responder" sceneMemberID="firstResponder"/>
